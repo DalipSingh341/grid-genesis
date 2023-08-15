@@ -1,0 +1,68 @@
+@font-face {
+    font-family: FONTSPRING;
+    src: url(../src/assets/font-family/blogfonts.com.url);
+}
+
+:root{
+    --ff-primary:"FONTSPRING",sans-serif;
+
+    --fs-xs:16px;
+    --fs-xl:50px;
+
+    --black-main:#000;
+    --white-main:#fff;
+    --pink-main:#F98ABC;
+
+    --light:300;
+    --regular:400;
+    --medium:500;
+    --semiBold:600;
+    --bold:700;
+    --extraBold:800;
+    --extraLarge:900;
+}
+
+.ff_fontSpring{
+    font-family: var(--ff-primary) !important;
+}
+.fs_16{
+    font-size: var(--fs-xs);
+}
+.fs_50{
+    font-size: var(--fs-xl);
+}
+.fc_black{
+color: var(--black-main);
+}
+.fc_white{
+color: var(--white-main);
+}
+.fc_pink{
+    color: var(--pink-main);
+}
+.fw_300 {
+  font-weight: var(--light) !important;
+}
+.fw_400 {
+  font-weight: var(--regular) !important;
+}
+
+.fw_500 {
+  font-weight: var(--medium) !important;
+}
+
+.fw_600 {
+  font-weight: var(--semiBold) !important;
+}
+
+.fw_700 {
+  font-weight: var(--bold) !important;
+}
+
+.fw_800 {
+  font-weight: var(--extraBold) !important;
+}
+
+.fw_900 {
+  font-weight: var(--extraLarge) !important;
+}
